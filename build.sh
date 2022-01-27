@@ -2,7 +2,7 @@
 
 gcc -o wordtable.exe wordtable.c
 
-./wordtable.exe 2500words.txt
+./wordtable.exe word-list.txt
 cp WORDS.BIN words.bin
 
 cl65 -t cx16 -l x16-wordslide.list -o WSX16.PRG wordslide.asm
